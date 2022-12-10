@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0D1117;
+  color: white;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #161B22;
+}
+
+.get-repos {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-repos i {
+  color: #fff;
+  font-size: 48px;
+  padding-right: 20px;
+}
+
+.get-repos input {
+  width: 400px;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.get-repos input:focus {
+  border-inline: 2px solid gray;
+}
+
+.get-repos .btn {
+  background-color: #000;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 1100px;
+}
+
+.repo-data {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.title {
+  color: #5AA5FB;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.repo-box {
+  padding: 15px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.repo-box:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.repo-box:last-child {
+  border-bottom: none;
+}
+
+.repo-box a,
+.repo-box span {
+  float: right;
+  margin-left: 4px;
+  border-radius: 4px;
+  color: #FFF;
+  font-size: 12px;
+  width: 90px;
+  text-align: center;
+  padding: 4px;
+}
+
+.repo-box a {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #E91E63;
+}
+
+.repo-box span {
+  font-size: 20px;
+  background-color: #009688;
+}
